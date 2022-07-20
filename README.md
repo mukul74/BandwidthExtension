@@ -42,12 +42,13 @@
 2. The image shows audio samples generated via Perceptual Audio Coder and and White Noise corrupted by same SNR as of input and audio coder reconstructed.
 
 ## Modified Unconditional SampleRNN
-![Samplernn](imgs/ModifiedSamplernn.png "Modified SampleRNN for BandwidthExtension")
+![Samplernn](imgs/ModifiedSamplernn.png "Modified SampleRNN for BandwidthExtension") 
 
 ## RNN-Autoencoder
-### Non-Polyphase based RNN-Autoencoder
-![Non-Polyphase](imgs/TransposedConvolution_Autorncoder_RNN_NP_01.png "Non-Polyphase")
-### Polyphase based RNN-Autoencoder
-![Polyphase](imgs/TransposedConvolution_Autorncoder_RNN_P_02.png "Polyphase")
+
+### Non-Polyphase based RNN-Autoencoder | Polyphase based RNN-Autoencoder
+![Non-Polyphase](imgs/TransposedConvolution_Autorncoder_RNN_NP_01.png "Non-Polyphase")  ![Polyphase](imgs/TransposedConvolution_Autorncoder_RNN_P_02.png "Polyphase")
+
+
 
 To be updated soon
