@@ -45,7 +45,7 @@
 ![Samplernn](imgs/ModifiedSamplernn.png "Modified SampleRNN for BandwidthExtension")
 
 ## RNN-Autoencoder
-1. ![Non-Polyphase](imgs/TransposedConvolution_Autorncoder_RNN_NP_01.png "Non-Polyphase")
-2. ![Polyphase](imgs/TransposedConvolution_Autorncoder_RNN_P_02.png "Polyphase")
+![Non-Polyphase](imgs/TransposedConvolution_Autorncoder_RNN_NP_01.png "Non-Polyphase")
+![Polyphase](imgs/TransposedConvolution_Autorncoder_RNN_P_02.png "Polyphase")
 
 To be updated soon
