@@ -43,10 +43,9 @@
 
 ## Modified Unconditional SampleRNN
 <img src= "imgs/ModifiedSamplernn.png"  width="400" height="800" >
-[![Samplernn](imgs/ModifiedSamplernn.png = 10x10 "Modified SampleRNN for BandwidthExtension")]: #
 
 ## RNN-Autoencoder
-1. ![Non-Polyphase](imgs/TransposedConvolution_Autorncoder_RNN_NP_01.png "Non-Polyphase")
-2. ![Polyphase](imgs/TransposedConvolution_Autorncoder_RNN_P_02.png "Polyphase")
+<img src= "imgs/TransposedConvolution_Autorncoder_RNN_NP_01.png"  width="400" height="800" >
+<img src= "imgs/TransposedConvolution_Autorncoder_RNN_P_02.png"  width="400" height="800" >
 
 To be updated soon
