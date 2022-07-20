@@ -45,7 +45,7 @@
 <img src= "imgs/ModifiedSamplernn.png"  width="400" height="800" >
 
 ## RNN-Autoencoder
-<img src= "imgs/TransposedConvolution_Autorncoder_RNN_NP_01.png"  width="400" height="800" >
-<img src= "imgs/TransposedConvolution_Autorncoder_RNN_P_02.png"  width="400" height="800" >
+<img src= "imgs/TransposedConvolution_Autorncoder_RNN_NP_01.png"  width="200" height="500" >
+<img src= "imgs/TransposedConvolution_Autorncoder_RNN_P_02.png"  width="200" height="500" >
 
 To be updated soon
