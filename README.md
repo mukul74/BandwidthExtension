@@ -44,18 +44,16 @@
 ## Modified Unconditional SampleRNN
 <figure>
 	<img src= "imgs/ModifiedSamplernn.png"  width="400" height="800" >
-		alt="Albuquerque, New Mexico">
     <figcaption>Modified Unconditional SampleRNN.</figcaption>
 </figure>
 ## RNN-Autoencoder
 <figure>
 <img src= "imgs/TransposedConvolution_Autorncoder_RNN_NP_01.png"  width="200" height="400" >
-		alt="Albuquerque, New Mexico">
     <figcaption>Non-Polyphase based RNN-Autoencoder.</figcaption>
 </figure>
+
 <figure>
 <img src= "imgs/TransposedConvolution_Autorncoder_RNN_P_02.png"  width="200" height="400" >
-		alt="Albuquerque, New Mexico">
     <figcaption>Polyphase based RNN-Autoencoder.</figcaption>
 </figure>
 To be updated soon
