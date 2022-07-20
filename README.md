@@ -26,6 +26,9 @@
 3. Logarthmic Spectral Distance(LSD)
 
 
+![ORP](imgs/Orig_Ac_corrr.png "Original vs PAC Reconstructed and White Noise Corrupted Audio")
+
+
 |      | Original vs Reconstructed | Original vs White Noise Corrupted |
 |------|---------------------------|-----------------------------------|
 | MSE  |          0.01886          |              0.01886              |
@@ -33,10 +36,10 @@
 | LSD  |          0.89329          |              2.47500              |
 
 ### Observation
-MSE for both of the cases is same and is not able to diffrentiate between them, on the other hand, WMSE and LSD is able to diffrentiate between the white noise corrupted audio and Reconstructed audio.
+1. MSE for both of the cases is same and is not able to diffrentiate between them, on the other hand, WMSE and LSD is able to diffrentiate between the white noise corrupted audio and Reconstructed audio.
 
-The image shows audio samples generated via Perceptual Audio Coder and and White Noise corrupted by same SNR as of input and audio coder reconstructed.
-![ORP](imgs/Orig_Ac_corrr.png "Original vs PAC Reconstructed and White Noise Corrupted Audio")
+
+2. The image shows audio samples generated via Perceptual Audio Coder and and White Noise corrupted by same SNR as of input and audio coder reconstructed.
 
 
 To be updated soon
