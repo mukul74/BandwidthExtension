@@ -31,4 +31,8 @@
 | WMSE |          1.46956          |              35.06760             |
 | LSD  |          0.89329          |              2.47500              |
 
+
+![ORP](imgs/Orig_Ac_corrr.png "Original vs PAC Reconstructed and White Noise Corrupted Audio")
+
+
 To be updated soon
