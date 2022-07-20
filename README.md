@@ -46,9 +46,11 @@
 
 ## RNN-Autoencoder
 
-### Non-Polyphase based RNN-Autoencoder | 
+### Non-Polyphase based RNN-Autoencoder 
 ![Non-Polyphase](imgs/rsz_transposedconvolution_autorncoder_rnn_np_01.png "Non-Polyphase")  
 #### Details
+
+
 
 ###Polyphase based RNN-Autoencoder
 ![Polyphase](imgs/rsz_transposedconvolution_autorncoder_rnn_p_02.png "Polyphase")
