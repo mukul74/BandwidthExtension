@@ -14,3 +14,15 @@
 
 ## Block Diagram
 ![Simple Block Diagram](imgs/base.PNG "Simple Block Diagram")
+
+## Models Examined 
+1. Modified Unconditional SampleRNN
+2. RNN-Autoencoder
+    1. Non-Polyphase based RNN-Autoencoder
+    2. Polyphase based RNN-Autoencoder
+## Errors Examined
+1. Mean Square Error(MSE)
+2. Weighted Mean Square Error(WMSE)
+3. Logarthmic Spectral Distance(LSD)
+
+To be updated soon
