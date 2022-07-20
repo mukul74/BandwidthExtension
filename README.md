@@ -25,4 +25,10 @@
 2. Weighted Mean Square Error(WMSE)
 3. Logarthmic Spectral Distance(LSD)
 
+|      | Original vs Reconstructed | Original vs White Noise Corrupted |
+|------|---------------------------|-----------------------------------|
+| MSE  |          0.01886          |              0.01886              |
+| WMSE |          1.46956          |              35.06760             |
+| LSD  |          0.89329          |              2.47500              |
+
 To be updated soon
