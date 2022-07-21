@@ -1,0 +1,136 @@
+absl-py==1.0.0
+appdirs @ file:///home/conda/feedstock_root/build_artifacts/appdirs_1603108395799/work
+attrs==21.4.0
+audioread @ file:///D:/bld/audioread_1636295930328/work
+auraloss==0.2.1
+backcall==0.2.0
+bokeh==2.4.2
+brotlipy @ file:///D:/bld/brotlipy_1636012439160/work
+cachetools==4.2.4
+cdpam==0.0.6
+certifi==2021.10.8
+cffi @ file:///D:/bld/cffi_1636046306023/work
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1638815705608/work
+click==8.0.3
+colorama==0.4.4
+configparser==5.2.0
+cryptography @ file:///D:/bld/cryptography_1639699494546/work
+cycler @ file:///home/conda/feedstock_root/build_artifacts/cycler_1635519461629/work
+debugpy==1.4.1
+decorator==5.0.9
+Deprecated==1.2.13
+dill==0.3.4
+docker-pycreds==0.4.0
+featureflow==3.0.3
+filelock==3.4.2
+fonttools @ file:///D:/bld/fonttools_1639926464673/work
+gitdb==4.0.9
+GitPython==3.1.26
+google-auth==2.3.3
+google-auth-oauthlib==0.4.6
+grpcio==1.43.0
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1609836280497/work
+importlib-metadata==4.10.0
+importlib-resources==5.4.0
+ipykernel==6.0.3
+ipython==7.26.0
+ipython-genutils==0.2.0
+jedi==0.18.0
+Jinja2==3.0.3
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1633637554808/work
+jsonschema==4.4.0
+jupyter-client==6.1.12
+jupyter-core==4.7.1
+kiwisolver @ file:///D:/bld/kiwisolver_1635836925049/work
+librosa @ file:///home/conda/feedstock_root/build_artifacts/librosa_1644967835314/work
+linecache2==1.0.0
+llvmlite==0.37.0
+lmdb==1.3.0
+Markdown==3.3.6
+MarkupSafe==2.1.1
+matplotlib @ file:///D:/bld/matplotlib-suite_1639359207070/work
+matplotlib-inline==0.1.2
+mkl-fft==1.3.1
+mkl-random @ file:///C:/ci/mkl_random_1626186163140/work
+mkl-service==2.4.0
+msgpack==1.0.3
+munkres==1.1.4
+natsort==7.0.1
+noisereduce==2.0.1
+nose==1.3.7
+numba @ file:///D:/bld/numba_1633674565472/work
+numpy @ file:///C:/ci/numpy_and_numpy_base_1626271861146/work
+oauthlib==3.1.1
+olefile==0.46
+onnx==1.10.2
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1637239678211/work
+pandas==1.3.5
+parso==0.8.2
+pathtools==0.1.2
+pickleshare==0.7.5
+Pillow==8.4.0
+pooch @ file:///home/conda/feedstock_root/build_artifacts/pooch_1633958983611/work
+promise==2.3
+prompt-toolkit==3.0.19
+protobuf==3.19.3
+psutil==5.9.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+PyAudio==0.2.11
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1636257122734/work
+pydub @ file:///home/conda/feedstock_root/build_artifacts/pydub_1615612442567/work
+Pygments==2.9.0
+pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1633192417276/work
+pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1636757021002/work
+pyrsistent==0.18.1
+PySocks @ file:///D:/bld/pysocks_1635862618120/work
+PySoundFile==0.9.0.post1
+python-dateutil==2.8.2
+pytz==2022.1
+pywin32==301
+PyYAML==6.0
+pyzmq==22.1.0
+ray==1.9.2
+redis==4.1.2
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1637771257551/work
+requests-oauthlib==1.3.0
+resampy==0.2.2
+rsa==4.8
+scikit-learn @ file:///C:/ci/scikit-learn_1635187438800/work
+scipy @ file:///C:/ci/scipy_1630606897162/work
+sentry-sdk==1.5.2
+shortuuid==1.0.8
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+smmap==5.0.0
+snorkel==0.9.8
+SoundFile @ file:///home/conda/feedstock_root/build_artifacts/pysoundfile_1607011569782/work
+subprocess32==3.5.4
+tabulate==0.8.9
+tensorboard==2.7.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+tensorboardX==2.5
+termcolor==1.1.0
+threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1633102299089/work
+torch==1.10.1
+torchaudio==0.10.1
+torchinfo==1.6.3
+torchvision==0.11.2
+tornado==4.5.3
+tqdm==4.64.0
+traceback2==1.4.0
+traitlets==5.0.5
+typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1631814937681/work
+ujson==5.2.0
+unicodedata2 @ file:///D:/bld/unicodedata2_1640031276438/work
+unittest2==1.1.0
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1632350318291/work
+wandb==0.12.9
+wcwidth==0.2.5
+Werkzeug==2.0.2
+wget==3.2
+win-inet-pton @ file:///D:/bld/win_inet_pton_1635832912576/work
+wincertstore==0.2
+wrapt==1.13.3
+yaspin==2.1.0
+zipp==3.5.0
