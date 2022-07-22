@@ -57,9 +57,9 @@
 #### Details
 > In the previous section, we saw a little complex version of the RNN-based autoencoder, which was trained for transposed convolution as an upsampling technique. In this version, we adopted the same idea, except for the input values to the network. In the previous section, audio samples of block length 1024 were used as an input to the network with 50% overlap. In this section, we downsampled the block of 1024 samples in a Polyphased. This block is divided into eight channels and 128 samples, then they are used as an input to the neural network model. The first convolutional layer is made in such a way that it can accommodate the incoming eight channels. This type of downsampling is termed polyphase. 1024 input samples are transformed as per the image shown below. The rest of the architecture RNN-Autoencoder is modified to attain the transformed input samples. Here also, we utilize LeakyRelu, maxpool, Relu, and Dropout in the same fashion as explained above. As mentioned earlier, models were trained for WMSE and LSD separately. Appropriate changes were made for the loss function made to the training methods.
 ## Experiments 
-> Diese rasch um jahre ja lagen es du sitte. Winter freute weg wei konnen burger vielen. War hemdarmel liebevoll verharrte das sorglosen. So ab sa horst en diese genug. Betrubte geworden wei wie indessen kindbett funkelte. Wu stillen uberall gewerbe fenster an mi. Gehe lief eck sohn nun lich also mann. Hab entgegen getraumt zinnerne spielend als burschen.
+Experiments with different sampling rates were conducted, to evaluate our idea
 
-> So eleganz spiegel heimweh es. Horchend gefallen achtzehn schlafer he vergrast je. Gerufen gefreut verband es stopfen so. La licht so mi ruhen weste je. Pa nachdem dichten anblick ku so lockere obenhin. Sudwesten gestrigen schnupfen tat ist besserung. Tur nest vor hast hol fast lass kerl weil. Sa kinder se es sofort an schade.
+##### Results and Observations for Base model, SampleRNN based model and Non-Polyphase based model for input sampled at 4kHz and target sampled at 8kHz
 
 
 ## Results
