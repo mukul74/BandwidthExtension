@@ -67,4 +67,14 @@ Experiments with different sampling rates were conducted, to evaluate our idea
 > For subjective evaluation, a MUSHRA test was conducted. Mushra stands for Multi-Stimulus test with Hidden Reference and Anchor(MUSHRA). MUSHRA is used for comparing the audio quality of different audio samples. MUSHRA has an advantage over Mean Opinion Score(MOS), as it can deliver better results with fewer participants. A participant is asked to rate the reconstructed audio files on a scale of 0-100 while switching in-between the reference and reconstructed. We use a web application developed by International Audio Labs Erlangen for this test. Where we have a reference signal or target signal compared to the reconstructed samples, reconstructed samples perceptually closer to the reference signal must have a high score. Here we are comparing target/reference and generated samples at 16kHz via Non-Polyphase based model, Polyphase based model, and Base model. 
 ![Mushra Test](imgs/Mushra_test_pres.png "Mushra test")
 
-To be updated soon
+> Observations :
+> From the results of the MUSHRA test, we can observe that the median value of Gener-
+ated NO POLY T 8k 16k I 8k 16k WMSE(79.1) is the highest among the rest of the recon-
+structed audio samples. Followed by Generated NO POLY T 4k 16k I 8k 16 WMSE(78.9),
+which is much better than the Base model score of 69.5. Hence the method using Non-
+Polyphase based model with WMSE as an error function provides the best results. For LSD as
+error function for Non-Polyphase based model had median values better than Polyphase based
+methods. In general, Non-Polyphase based models were better than Polyphase based models.
+In general, all the audio samples generated with the Non-Polyphase based model using WMSE
+and LSD were ranked higher than the Base model. These results prove the enhancement of our
+proposed model over the base model.
