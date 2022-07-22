@@ -63,11 +63,8 @@ Experiments with different sampling rates were conducted, to evaluate our idea
 ##### Experiments for Base model, SampleRNN based model and Polyphase based RNN-Autoencoder for input sampled at 4kHz and target sampled at 8kHz
 ##### Experiments for Non-Polyphase based RNN-Autoencoder, Polyphase based RNN-Autoencoder and Base model for higher sampling rates
 
-## Results
-> Diese rasch um jahre ja lagen es du sitte. Winter freute weg wei konnen burger vielen. War hemdarmel liebevoll verharrte das sorglosen. So ab sa horst en diese genug. Betrubte geworden wei wie indessen kindbett funkelte. Wu stillen uberall gewerbe fenster an mi. Gehe lief eck sohn nun lich also mann. Hab entgegen getraumt zinnerne spielend als burschen.
-
-> So eleganz spiegel heimweh es. Horchend gefallen achtzehn schlafer he vergrast je. Gerufen gefreut verband es stopfen so. La licht so mi ruhen weste je. Pa nachdem dichten anblick ku so lockere obenhin. Sudwesten gestrigen schnupfen tat ist besserung. Tur nest vor hast hol fast lass kerl weil. Sa kinder se es sofort an schade.
-
+## Subjective Results
+> For subjective evaluation, a MUSHRA test was conducted. Mushra stands for Multi-Stimulus test with Hidden Reference and Anchor(MUSHRA). MUSHRA is used for comparing the audio quality of different audio samples. MUSHRA has an advantage over Mean Opinion Score(MOS), as it can deliver better results with fewer participants. A participant is asked to rate the reconstructed audio files on a scale of 0-100 while switching in-between the reference and reconstructed. We use a web application developed by International Audio Labs Erlangen for this test. Where we have a reference signal or target signal compared to the reconstructed samples, reconstructed samples perceptually closer to the reference signal must have a high score. Here we are comparing target/reference and generated samples at 16kHz via Non-Polyphase based model, Polyphase based model, and Base model. 
 
 
 To be updated soon
