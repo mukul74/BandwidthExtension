@@ -59,10 +59,9 @@
 ## Experiments 
 Experiments with different sampling rates were conducted, to evaluate our idea
 
-##### Results and Observations for Base model, SampleRNN based model and Non-Polyphase based model for input sampled at 4kHz and target sampled at 8kHz
-Loss functions such as MSE, WMSE and LSD were also examined.
-
-![Basemodel_T_4k_8k_I_4k_8k](imgs/Basemodel_T_4k_8k_I_4k_8k.PNG "Base for 4k 8k")
+##### Experiments for Base model, SampleRNN based model and Non-Polyphase based model for input sampled at 4kHz and target sampled at 8kHz
+##### Experiments for Base model, SampleRNN based model and Polyphase based RNN-Autoencoder for input sampled at 4kHz and target sampled at 8kHz
+##### Experiments for Non-Polyphase based RNN-Autoencoder, Polyphase based RNN-Autoencoder and Base model for higher sampling rates
 
 ## Results
 > Diese rasch um jahre ja lagen es du sitte. Winter freute weg wei konnen burger vielen. War hemdarmel liebevoll verharrte das sorglosen. So ab sa horst en diese genug. Betrubte geworden wei wie indessen kindbett funkelte. Wu stillen uberall gewerbe fenster an mi. Gehe lief eck sohn nun lich also mann. Hab entgegen getraumt zinnerne spielend als burschen.
