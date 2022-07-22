@@ -65,6 +65,6 @@ Experiments with different sampling rates were conducted, to evaluate our idea
 
 ## Subjective Results
 > For subjective evaluation, a MUSHRA test was conducted. Mushra stands for Multi-Stimulus test with Hidden Reference and Anchor(MUSHRA). MUSHRA is used for comparing the audio quality of different audio samples. MUSHRA has an advantage over Mean Opinion Score(MOS), as it can deliver better results with fewer participants. A participant is asked to rate the reconstructed audio files on a scale of 0-100 while switching in-between the reference and reconstructed. We use a web application developed by International Audio Labs Erlangen for this test. Where we have a reference signal or target signal compared to the reconstructed samples, reconstructed samples perceptually closer to the reference signal must have a high score. Here we are comparing target/reference and generated samples at 16kHz via Non-Polyphase based model, Polyphase based model, and Base model. 
-
+![Mushra Test](imgs/Mushra_test_pres.png "Mushra test")
 
 To be updated soon
