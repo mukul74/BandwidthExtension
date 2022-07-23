@@ -2,6 +2,7 @@
 
 [Bandwidth extension](https://en.wikipedia.org/wiki/Bandwidth_extension) of the signal is defined as the deliberate process of expanding the frequency range (bandwidth) of a signal in which it contains an appreciable and useful content and/or the frequency range in which its effects are such.
 
+[![Inference in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/mukul74/BandwidthExtension/blob/main/BWE_inference.ipynb)
 
 ## Abstract
   >Advancements in the field of deep learning have led to some remarkable discoveries in
