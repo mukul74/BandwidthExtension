@@ -29,6 +29,7 @@
 2. Weighted Mean Square Error(WMSE)
 3. Logarthmic Spectral Distance(LSD)
 
+#### Google Colab notebook for Error Comparision
 [![Inference example in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1AUALZF3DueLh9sQYaYN9Im3sIx9ej85R#scrollTo=3u9rCk4dk7VN)
 
 
