@@ -1,0 +1,12 @@
+{
+    "seq_len": 1024,
+    "frame_sizes": [8,32],
+    "dim": 1024,
+    "rnn_type": "gru",
+    "num_rnn_layers": 4,
+    "q_type": "mu-law",
+    "q_levels": 256,
+    "emb_size": 256,
+    "overlap" : 0,
+    "kernel_size" : 8
+}
