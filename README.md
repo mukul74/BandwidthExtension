@@ -2,6 +2,9 @@
 
 [Bandwidth extension](https://en.wikipedia.org/wiki/Bandwidth_extension) of the signal is defined as the deliberate process of expanding the frequency range (bandwidth) of a signal in which it contains an appreciable and useful content and/or the frequency range in which its effects are such.
 
+##### Google Colab file for inference using a pretrained model for Non-Polyphase based Model
+> Model was trained for 16kHz input audio samples and 32kHz target audio samples using WMSE as a loss function
+ 
 [![Inference example in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Wt0t2uKdKv2qVse6ejxGFtdvLkGhxFc6#scrollTo=qQOKDlzGhV01&uniqifier=1)
 
 ## Abstract
