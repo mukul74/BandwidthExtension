@@ -66,11 +66,43 @@
 ## Experiments 
 Experiments with different sampling rates were conducted, to evaluate our idea
 
-##### Experiments for Base model, SampleRNN based model and Non-Polyphase based model for input sampled at 4kHz and target sampled at 8kHz
+##### Experiments for Base model, SampleRNN based model, Non-Polyphase based model and Polyphase based RNN-Autoencoder for input sampled at 4kHz and target sampled at 8kHz
 
-##### Experiments for Base model, SampleRNN based model and Polyphase based RNN-Autoencoder for input sampled at 4kHz and target sampled at 8kHz
+|                    	| MSE                 	| WMSE                 	| LSD               	|
+|--------------------	|---------------------	|----------------------	|-------------------	|
+| Non_Polyphase_WMSE 	| 0.0932317343526161  	| 8.21E-07 	| 0.302534976401008 	|
+| Non_Polyphase_LSD  	| 0.0742006318564213  	| 8.03E-07 	| 0.28536770116681  	|
+| Polyphase_WMSE     	| 0.0149761172970801  	| 7.7E-07 	| 0.322922977189031 	|
+| Polyphase_LSD      	| 0.045025677702562   	| 1.08E-06 	| 0.336819651035162 	|
+| SampleRNN          	| 0.09213455797162523 	| 7.36E-07 	| 0.383906527494008 	|
+| BaseModel          	| 0.046915435689      	| 5.16E-07 	| 0.399791688125897 	|
+
 
 ##### Experiments for Non-Polyphase based RNN-Autoencoder, Polyphase based RNN-Autoencoder and Base model for higher sampling rates usch as 8kHz to 16kHz and 16kHz to 32kHz.
+###### 8kHz to 16kHz
+|                                      	| MSE         	| WMSE     	| LSD         	|
+|--------------------------------------	|-------------	|----------	|-------------	|
+| Non-Polyphase_T_8k_16k_I_8k_16k_LSD  	| 0.056379900  	| 5.73E-07 	| 0.276729196 	|
+| Non-Polyphase_T_4k_8k_I_8k_16k_LSD   	| 0.051999187 	| 7.35E-07 	| 0.271316883 	|
+| Non-Polyphase_T_8k_16k_I_8k_16k_WMSE 	| 0.046481295 	| 3.98E-07 	| 0.261975849 	|
+| Non-Polyphase_T_4k_8k_I_8k_16k_WMSE  	| 0.079269871 	| 5.93E-07 	| 0.259256431 	|
+| Polyphase_T_8k_16k_I_8k_16k_LSD      	| 0.043998776 	| 7.21E-07 	| 0.277621126 	|
+| Polyphase_T_4k_8k_I_8k_16k_LSD       	| 0.026988551 	| 6.02E-07 	| 0.290659596 	|
+| Polyphase_T_8k_16k_I_8k_16k_WMSE     	| 0.035046323 	| 3.98E-07 	| 0.272616319 	|
+| Polyphase_T_4k_8k_I_8k_16k_WMSE      	| 0.005492212 	| 3.90E-07 	| 0.277659197 	|
+
+######  16kHz to 32kHz
+|                                        	| MSE         	| WMSE     	| LSD      	|
+|----------------------------------------	|-------------	|----------	|----------	|
+| Non-Polyphase_T_16k_32k_I_16k_32k_LSD  	| 0.145649366 	| 3.88E-07 	| 0.209755 	|
+| Non-Polyphase_T_4k_8k_I_16k_32k_LSD    	| 0.020665331 	| 5.24E-07 	| 0.215294 	|
+| Non-Polyphase_T_16k_32k_I_16k_32k_WMSE 	| 0.002238482 	| 2.95E-07 	| 0.204589 	|
+| Non-Polyphase_T_4k_8k_I_16k_32k_WMSE   	| 0.10929662  	| 5.00E-07 	| 0.236057 	|
+| Polyphase_T_16k_32k_I_16k_32k_LSD      	| 0.134671843 	| 4.64E-07 	| 0.234291 	|
+| Polyphase_T_4k_8k_I_16k_32k_LSD        	| 0.129595473 	| 5.10E-07 	| 0.25999  	|
+| Polyphase_T_16k_32k_I_16k_32k_WMSE     	| 0.099928898 	| 3.47E-07 	| 0.2472   	|
+| Polyphase_T_4kk_8k_I_16k_32k_WMSE      	| 0.001909916 	| 3.42E-07 	| 0.245304 	|
+
 
 ## Subjective Results
 > For subjective evaluation, a MUSHRA test was conducted among 7 people, with average hearing capabilities. Mushra stands for Multi-Stimulus test with Hidden Reference and Anchor(MUSHRA). MUSHRA is used for comparing the audio quality of different audio samples. MUSHRA has an advantage over Mean Opinion Score(MOS), as it can deliver better results with fewer participants. A participant is asked to rate the reconstructed audio files on a scale of 0-100 while switching in-between the reference and reconstructed. We use a web application developed by International Audio Labs Erlangen for this test. Where we have a reference signal or target signal compared to the reconstructed samples, reconstructed samples perceptually closer to the reference signal must have a high score. Here we are comparing target/reference and generated samples at 16kHz via Non-Polyphase based model, Polyphase based model, and Base model. 
