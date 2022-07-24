@@ -6,6 +6,8 @@
 > Model was trained for 16kHz input audio samples and 32kHz target audio samples using WMSE as a loss function
  
 [![Inference example in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Wt0t2uKdKv2qVse6ejxGFtdvLkGhxFc6#scrollTo=qQOKDlzGhV01&uniqifier=1)
+##### A small website for input, target and generated audio samples.
+[BandwidthExtension](https://mukul74.github.io/BandwidthExtensionAudioSamples/)
 
 ## Abstract
   >Advancements in the field of deep learning have led to some remarkable discoveries in
