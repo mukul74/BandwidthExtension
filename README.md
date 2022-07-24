@@ -68,6 +68,9 @@ Experiments with different sampling rates were conducted, to evaluate our idea
 
 ##### Experiments for Base model, SampleRNN based model, Non-Polyphase based model and Polyphase based RNN-Autoencoder for input sampled at 4kHz and target sampled at 8kHz
 
+
+#### 4kHz to 8kHz Average loss for Test Set
+
 |                    	| MSE                 	| WMSE                 	| LSD               	|
 |--------------------	|---------------------	|----------------------	|-------------------	|
 | Non_Polyphase_WMSE 	| 0.0932317343526161  	| 8.21E-07 	| 0.302534976401008 	|
@@ -79,7 +82,9 @@ Experiments with different sampling rates were conducted, to evaluate our idea
 
 
 ##### Experiments for Non-Polyphase based RNN-Autoencoder, Polyphase based RNN-Autoencoder and Base model for higher sampling rates usch as 8kHz to 16kHz and 16kHz to 32kHz.
-###### 8kHz to 16kHz
+
+#### 8kHz to 16kHz Average loss for Test Set
+
 |                                      	| MSE         	| WMSE     	| LSD         	|
 |--------------------------------------	|-------------	|----------	|-------------	|
 | Non-Polyphase_T_8k_16k_I_8k_16k_LSD  	| 0.056379900  	| 5.73E-07 	| 0.276729196 	|
@@ -91,7 +96,7 @@ Experiments with different sampling rates were conducted, to evaluate our idea
 | Polyphase_T_8k_16k_I_8k_16k_WMSE     	| 0.035046323 	| 3.98E-07 	| 0.272616319 	|
 | Polyphase_T_4k_8k_I_8k_16k_WMSE      	| 0.005492212 	| 3.90E-07 	| 0.277659197 	|
 
-######  16kHz to 32kHz
+####  16kHz to 32kHz Average loss for Test Set
 |                                        	| MSE         	| WMSE     	| LSD      	|
 |----------------------------------------	|-------------	|----------	|----------	|
 | Non-Polyphase_T_16k_32k_I_16k_32k_LSD  	| 0.145649366 	| 3.88E-07 	| 0.209755 	|
