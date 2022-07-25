@@ -69,6 +69,11 @@
 |-----------	|---------------	|-----------	|--------	|
 | 0.09M     	| 2.3M          	| 72.06M    	| 78.02M 	|
 
+#### Average inference time per Model
+| Polyphase 	| Non-Polyphase 	| SampleRNN 	| Base     	|
+|-----------	|---------------	|-----------	|----------	|
+| 2.94 sec  	| 3.2 sec       	| 1.03 sec  	| 7.88 sec 	|
+
 
 ## Experiments 
 Experiments with different sampling rates were conducted, to evaluate our idea
