@@ -63,6 +63,13 @@
 ![Polyphase](imgs/rsz_transposedconvolution_autorncoder_rnn_p_02.png "Polyphase")
 #### Details
 > In the previous section, we saw a little complex version of the RNN-based autoencoder, which was trained for transposed convolution as an upsampling technique. In this version, we adopted the same idea, except for the input values to the network. In the previous section, audio samples of block length 1024 were used as an input to the network with 50% overlap. In this section, we downsampled the block of 1024 samples in a Polyphased. This block is divided into eight channels and 128 samples, then they are used as an input to the neural network model. The first convolutional layer is made in such a way that it can accommodate the incoming eight channels. This type of downsampling is termed polyphase. 1024 input samples are transformed as per the image shown below. The rest of the architecture RNN-Autoencoder is modified to attain the transformed input samples. Here also, we utilize LeakyRelu, maxpool, Relu, and Dropout in the same fashion as explained above. As mentioned earlier, models were trained for WMSE and LSD separately. Appropriate changes were made for the loss function made to the training methods.
+
+#### Number of Parameters per Model
+| Polyphase 	| Non-Polyphase 	| SampleRNN 	| Base   	|
+|-----------	|---------------	|-----------	|--------	|
+| 0.09M     	| 2.3M          	| 72.06M    	| 78.02M 	|
+
+
 ## Experiments 
 Experiments with different sampling rates were conducted, to evaluate our idea
 
