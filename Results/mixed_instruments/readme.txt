@@ -1,3 +1,10 @@
-Generated files for 4k-8k trained models, basically we have cymbals, drums in 8k audio, audible, pretrained model tries to predict that
-Generated files for 8k-16k trained models, basically we have cymbals, drums in 8k audio, audible, pretrained model tries to predict that
-Generated files for 16k-32k trained models, basically we have cymbals, drums in 8k audio, audible, pretrained model tries to predict that, target is not available, as the original dataset was sampled for 22.5kHz only.
+Description :
+In all the folders mentioned above, we have generated audio files, target and input audio files
+
+1. Generated_(NO_POLY or POLY)_T_XXk_YYk_I_XXk_YYk_(WMSE or LSD).wav
+   1. NO_POLY   :  No Polyphase Input method
+   2. POLY      :  Polyphase method
+   3. T_XXk_YYk :  Meaning trained for input sampled at XX kHz and target is sampled at YY kHz
+   4. I_XXk_YYk :  Meaning Inferred for input sampled at XX kHz and predicted is sampled at YY kHz 
+   5. WMSE      :  Weighted Mean Square as error function while training
+   6. LSD       :  Log Spectral Distance as error function while training
