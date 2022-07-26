@@ -46,9 +46,10 @@
 
 ### Observation
 1. MSE for both of the cases is same and is not able to diffrentiate between them, on the other hand, WMSE and LSD is able to diffrentiate between the white noise corrupted audio and Reconstructed audio.
-
-
 2. The image shows audio samples generated via Perceptual Audio Coder and and White Noise corrupted by same SNR as of input and audio coder reconstructed.
+3. In the image it is visible there is quite a significant difference in the audio waveforms, but MSE is not able to differentiate between them.
+4. MSE is of no use when it comes to perceptual difference in audio.
+5. This small experiment drives the idea of Weighted Mean Squared Error and Log Spectral Difference.
 
 ## Modified Unconditional SampleRNN
 ![Samplernn](imgs/rsz_modifiedsamplernn.png "Modified SampleRNN for BandwidthExtension") 
