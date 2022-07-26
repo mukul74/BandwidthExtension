@@ -101,10 +101,10 @@ Experiments with different sampling rates were conducted, to evaluate our idea
 
 |                                      	| MSE         	| WMSE     	| LSD         	|
 |--------------------------------------	|-------------	|----------	|-------------	|
-| Non-Polyphase_T_8k_16k_I_8k_16k_LSD  	| 0.056379900  	| 5.73E-07 	| 0.276729196 	|
+| Non-Polyphase_T_8k_16k_I_8k_16k_LSD  	| 0.0563799   	| 5.73E-07 	| 0.276729196 	|
 | Non-Polyphase_T_4k_8k_I_8k_16k_LSD   	| 0.051999187 	| 7.35E-07 	| 0.271316883 	|
-| Non-Polyphase_T_8k_16k_I_8k_16k_WMSE 	| 0.046481295 	| 3.98E-07 	| 0.261975849 	|
-| Non-Polyphase_T_4k_8k_I_8k_16k_WMSE  	| 0.079269871 	| 5.93E-07 	| 0.259256431 	|
+| Non-Polyphase_T_8k_16k_I_8k_16k_WMSE 	| 0.046481295 	| 4.03E-07 	| 0.261975849 	|
+| Non-Polyphase_T_4k_8k_I_8k_16k_WMSE  	| 0.079269871 	| 3.98E-07 	| 0.259256431 	|
 | Polyphase_T_8k_16k_I_8k_16k_LSD      	| 0.043998776 	| 7.21E-07 	| 0.277621126 	|
 | Polyphase_T_4k_8k_I_8k_16k_LSD       	| 0.026988551 	| 6.02E-07 	| 0.290659596 	|
 | Polyphase_T_8k_16k_I_8k_16k_WMSE     	| 0.035046323 	| 3.98E-07 	| 0.272616319 	|
