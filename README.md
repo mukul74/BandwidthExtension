@@ -35,6 +35,8 @@
 
 ![ORP](imgs/Orig_Ac_corrr.png "Original vs PAC Reconstructed and White Noise Corrupted Audio")
 
+##### Google Colab file for error comparision
+[![Inference example in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1AUALZF3DueLh9sQYaYN9Im3sIx9ej85R#scrollTo=3SREr21Vk93s)
 
 |      | Original vs Reconstructed | Original vs White Noise Corrupted |
 |------|---------------------------|-----------------------------------|
