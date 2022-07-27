@@ -9,3 +9,5 @@ Prediction of pre-trained models for different genres
 8.  Pop
 9.  Reggae
 10. Rock 
+
+* 16k_32k Does not have target sampled at 32k, as the oroignal data was sampled at 22.5kHz.
