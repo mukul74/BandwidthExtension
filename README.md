@@ -96,6 +96,21 @@ Experiments with different sampling rates were conducted, to evaluate our idea
 | BaseModel          	| 0.046915435689      	| 5.16E-07 	| 0.399791688125897 	|
 
 
+#### 4kHz to 8kHz Average loss for Test Set having different genres 
+
+|     Models                 |     SpectralLoss Target_Input    	|     SpectralLoss Target_Predicted    	|
+|----------------------------|----------------------------------	|--------------------------------------	|
+|     4k_8k_Base             |            2.838955498           	|              0.769846642             	|
+|     4k_8k_WMSE_NON_POLY    |            2.838955498           	|                 0.5532               	|
+|     4k_8k_LSD_NON_POLY     |            2.838955498           	|              0.336730437             	|
+|     4k_8k_LSD_POLY         |            2.838955498           	|              0.247910774             	|
+|     4k_8k_MSE_NON_POLY     |            2.838955498           	|              0.804133153             	|
+|     4k_8k_MSE_POLY         |            2.838955498           	|              0.659037203             	|
+|     4k_8k_SampleRNN        |            2.838955498           	|              -0.043308296            	|
+|     4k_8k_WMSE_POLY        |            2.838955498           	|              0.326250678             	|
+
+
+
 ##### Experiments for Non-Polyphase based RNN-Autoencoder, Polyphase based RNN-Autoencoder and Base model for higher sampling rates usch as 8kHz to 16kHz and 16kHz to 32kHz.
 
 #### 8kHz to 16kHz Average loss for Test Set
@@ -111,6 +126,20 @@ Experiments with different sampling rates were conducted, to evaluate our idea
 | Polyphase_T_8k_16k_I_8k_16k_WMSE     	| 0.035046323 	| 3.98E-07 	| 0.272616319 	|
 | Polyphase_T_4k_8k_I_8k_16k_WMSE      	| 0.005492212 	| 3.90E-07 	| 0.277659197 	|
 
+#### 8kHz to 16kHz Average loss for Test Set having different genres 
+|                  Models                	|     SpectralLoss Target_Input    	|     SpectralLoss Target_Predicted    	|
+|:--------------------------------------:	|:--------------------------------:	|:------------------------------------:	|
+|     T_4k_8k_I_8k_16k_LSD_NON_POLY      	|             2.73441422           	|              0.270420129             	|
+|     T_4k_8k_I_8k_16k_LSD_POLY          	|             2.73441422           	|              0.187405745             	|
+|     T_4k_8k_I_8k_16k_WMSE_NON_POLY     	|             2.73441422           	|              0.465945017             	|
+|     T_4k_8k_I_8k_16k_WMSE_POLY         	|             2.73441422           	|               0.25570653             	|
+|     T_8k_16k_I_8k_16k_Base             	|             2.73441422           	|              0.603543603             	|
+|     T_8k_16k_I_8k_16k_LSD_NON_POLY     	|             2.73441422           	|              0.225586262             	|
+|     T_8k_16k_I_8k_16k_LSD_POLY         	|             2.73441422           	|              0.154223925             	|
+|     T_8k_16k_I_8k_16k_WMSE_NON_POLY    	|             2.73441422           	|              0.405578698             	|
+|     T_8k_16k_I_8k_16k_WMSE_POLY        	|             2.73441422           	|               0.17192617             	|
+
+
 ####  16kHz to 32kHz Average loss for Test Set
 |                                        	| MSE         	| WMSE     	| LSD      	|
 |----------------------------------------	|-------------	|----------	|----------	|
@@ -123,6 +152,7 @@ Experiments with different sampling rates were conducted, to evaluate our idea
 | Polyphase_T_16k_32k_I_16k_32k_WMSE     	| 0.099928898 	| 3.47E-07 	| 0.2472   	|
 | Polyphase_T_4kk_8k_I_16k_32k_WMSE      	| 0.001909916 	| 3.42E-07 	| 0.245304 	|
 
+#### 
 
 ## Subjective Results
 > For subjective evaluation, a MUSHRA test was conducted among 7 people, with average hearing capabilities. Mushra stands for Multi-Stimulus test with Hidden Reference and Anchor(MUSHRA). MUSHRA is used for comparing the audio quality of different audio samples. MUSHRA has an advantage over Mean Opinion Score(MOS), as it can deliver better results with fewer participants. A participant is asked to rate the reconstructed audio files on a scale of 0-100 while switching in-between the reference and reconstructed. We use a web application developed by International Audio Labs Erlangen for this test. Where we have a reference signal or target signal compared to the reconstructed samples, reconstructed samples perceptually closer to the reference signal must have a high score. Here we are comparing target/reference and generated samples at 16kHz via Non-Polyphase based model, Polyphase based model, and Base model. 
