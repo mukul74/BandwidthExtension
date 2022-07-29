@@ -96,6 +96,8 @@ Experiments with different sampling rates were conducted, to evaluate our idea
 | BaseModel          	| 0.046915435689      	| 5.16E-07 	| 0.399791688125897 	|
 
 
+Spectral Loss = np.mean(np.log10(np.abs(STFT_Y_trg) + 1e-7) - np.log10(np.abs(STFT_X_pred) + 1e-7))
+
 #### 4kHz to 8kHz Average loss for Test Set having different genres 
 
 |     Models                 |     SpectralLoss Target_Input    	|     SpectralLoss Target_Predicted    	|
