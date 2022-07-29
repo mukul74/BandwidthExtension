@@ -1,5 +1,8 @@
 Description :
 In all the folders mentioned above, we have generated audio files, target and input audio files
+4k-8k
+8k-16k
+16k-32k
 
 1. Generated_(NO_POLY or POLY)_T_XXk_YYk_I_XXk_YYk_(WMSE or LSD).wav
    1. NO_POLY   :  No Polyphase Input method
