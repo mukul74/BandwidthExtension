@@ -8,6 +8,10 @@
 [![Inference example in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Wt0t2uKdKv2qVse6ejxGFtdvLkGhxFc6#scrollTo=qQOKDlzGhV01&uniqifier=1)
 ##### A small website for input, target and generated audio samples.
 [BandwidthExtension](https://mukul74.github.io/BandwidthExtensionAudioSamples/)
+> Contains audio samples for
+> 1. Female Voice + Instruments
+> 2. Male Voice + Instruments
+> 3. Genre Disco 
 
 ## Abstract
   >Advancements in the field of deep learning have led to some remarkable discoveries in
