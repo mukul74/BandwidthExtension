@@ -79,7 +79,7 @@
 #### Average inference time per Model in seconds
 | Polyphase 	| Non-Polyphase 	| SampleRNN 	| Base     	|
 |-----------	|---------------	|-----------	|----------	|
-| 2.94   	| 3.2        	| 1.03   	| 7.88  	|
+| 2.94   	    | 3.2        	    | 1.03   	    | 7.88  	|
 
 
 ## Experiments 
