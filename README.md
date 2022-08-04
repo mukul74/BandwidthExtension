@@ -115,6 +115,9 @@ Spectral Loss = np.mean(np.log10(np.abs(STFT_Y_trg) + 1e-7) - np.log10(np.abs(ST
 |     4k_8k_SampleRNN        	|            2.838955498           	|              -0.043308296            	|                           -0.056810266                          	|
 |     4k_8k_WMSE_POLY        	|            2.838955498           	|              0.326250678             	|                            0.028139032                          	|
 
+* Spectral Loss = mean(log10(abs(STFT_Y_trg) + 1e-7) - log10(abs(STFT_X_pred) + 1e-7))  
+*IFR(Input Frequency Range)
+
 
 
 ##### Experiments for Non-Polyphase based RNN-Autoencoder, Polyphase based RNN-Autoencoder and Base model for higher sampling rates usch as 8kHz to 16kHz and 16kHz to 32kHz.
