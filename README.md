@@ -104,16 +104,16 @@ Spectral Loss = np.mean(np.log10(np.abs(STFT_Y_trg) + 1e-7) - np.log10(np.abs(ST
 
 #### 4kHz to 8kHz Average loss for Test Set having different genres 
 
-|     Models                 |     SpectralLoss Target_Input    	|     SpectralLoss Target_Predicted    	|
-|----------------------------|----------------------------------	|--------------------------------------	|
-|4k_8k_Base             |            2.838955498           	|              0.769846642             	|
-|4k_8k_WMSE_NON_POLY    |            2.838955498           	|                 0.5532               	|
-|4k_8k_LSD_NON_POLY     |            2.838955498           	|              0.336730437             	|
-|4k_8k_LSD_POLY         |            2.838955498           	|              0.247910774             	|
-|4k_8k_MSE_NON_POLY     |            2.838955498           	|              0.804133153             	|
-|4k_8k_MSE_POLY         |            2.838955498           	|              0.659037203             	|
-|4k_8k_SampleRNN        |            2.838955498           	|              -0.043308296            	|
-|4k_8k_WMSE_POLY        |            2.838955498           	|              0.326250678             	|
+|            Models          	|     SpectralLoss Target_Input    	|     SpectralLoss Target_Predicted    	|               SpectralLoss   Target(IFR)_Predicted(IFR)         	|
+|:--------------------------:	|:--------------------------------:	|:------------------------------------:	|:---------------------------------------------------------------:	|
+|     4k_8k_Base             	|            2.838955498           	|              0.769846642             	|                            0.025563918                          	|
+|     4k_8k_WMSE_NON_POLY    	|            2.838955498           	|                 0.5532               	|                            0.013841194                          	|
+|     4k_8k_LSD_NON_POLY     	|            2.838955498           	|              0.336730437             	|                            0.018115259                          	|
+|     4k_8k_LSD_POLY         	|            2.838955498           	|              0.247910774             	|                            0.06388542                           	|
+|     4k_8k_MSE_NON_POLY     	|            2.838955498           	|              0.804133153             	|                           -0.075100321                          	|
+|     4k_8k_MSE_POLY         	|            2.838955498           	|              0.659037203             	|                           -0.078789327                          	|
+|     4k_8k_SampleRNN        	|            2.838955498           	|              -0.043308296            	|                           -0.056810266                          	|
+|     4k_8k_WMSE_POLY        	|            2.838955498           	|              0.326250678             	|                            0.028139032                          	|
 
 
 
