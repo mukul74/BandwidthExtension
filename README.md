@@ -138,17 +138,17 @@ Spectral Loss = np.mean(np.log10(np.abs(STFT_Y_trg) + 1e-7) - np.log10(np.abs(ST
 **T_4k_8k_I_8k_16k means Trained for input samples at 4kHz and target of 8kHz and Inferred for 8kHz and 16kHz\
 **T_8k_16k_I_8k_16k means Trained for input samples at 8kHz and target of 16kHz and Inferred for 8kHz and 16kHz  
 
-|                  Models                	|     SpectralLoss Target_Input    	|     SpectralLoss Target_Predicted    	|
-|:--------------------------------------:	|:--------------------------------:	|:------------------------------------:	|
-|T_4k_8k_I_8k_16k_LSD_NON_POLY      	|             2.73441422           	|              0.270420129             	|
-|T_4k_8k_I_8k_16k_LSD_POLY          	|             2.73441422           	|              0.187405745             	|
-|T_4k_8k_I_8k_16k_WMSE_NON_POLY     	|             2.73441422           	|              0.465945017             	|
-|T_4k_8k_I_8k_16k_WMSE_POLY         	|             2.73441422           	|               0.25570653             	|
-|T_8k_16k_I_8k_16k_Base             	|             2.73441422           	|              0.603543603             	|
-|T_8k_16k_I_8k_16k_LSD_NON_POLY     	|             2.73441422           	|              0.225586262             	|
-|T_8k_16k_I_8k_16k_LSD_POLY         	|             2.73441422           	|              0.154223925             	|
-|T_8k_16k_I_8k_16k_WMSE_NON_POLY    	|             2.73441422           	|              0.405578698             	|
-|T_8k_16k_I_8k_16k_WMSE_POLY        	|             2.73441422           	|               0.17192617             	|
+|                  Models               |     SpectralLoss Target_Input  |     SpectralLoss Target_Predicted  |
+|-------------------------------------- |--------------------------------|------------------------------------|
+|T_4k_8k_I_8k_16k_LSD_NON_POLY      	|             2.73441422         |              0.270420129           |
+|T_4k_8k_I_8k_16k_LSD_POLY          	|             2.73441422         |              0.187405745           |
+|T_4k_8k_I_8k_16k_WMSE_NON_POLY     	|             2.73441422         |              0.465945017           |
+|T_4k_8k_I_8k_16k_WMSE_POLY         	|             2.73441422         |               0.25570653           |
+|T_8k_16k_I_8k_16k_Base             	|             2.73441422         |              0.603543603           |
+|T_8k_16k_I_8k_16k_LSD_NON_POLY     	|             2.73441422         |              0.225586262           |
+|T_8k_16k_I_8k_16k_LSD_POLY         	|             2.73441422         |              0.154223925           |
+|T_8k_16k_I_8k_16k_WMSE_NON_POLY    	|             2.73441422         |              0.405578698           |
+|T_8k_16k_I_8k_16k_WMSE_POLY        	|             2.73441422         |               0.17192617           |
 
 
 
