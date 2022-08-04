@@ -119,7 +119,7 @@ Spectral Loss = np.mean(np.log10(np.abs(STFT_Y_trg) + 1e-7) - np.log10(np.abs(ST
 
 ##### Experiments for Non-Polyphase based RNN-Autoencoder, Polyphase based RNN-Autoencoder and Base model for higher sampling rates usch as 8kHz to 16kHz and 16kHz to 32kHz.
 
-#### 8kHz to 16kHz Average loss for Test Set
+### 8kHz to 16kHz Average loss for Test Set
 
 |                                      	| MSE         	| WMSE     	| LSD         	|
 |--------------------------------------	|-------------	|----------	|-------------	|
@@ -134,7 +134,7 @@ Spectral Loss = np.mean(np.log10(np.abs(STFT_Y_trg) + 1e-7) - np.log10(np.abs(ST
 
 
  
-#### 8kHz to 16kHz Average loss for Test Set having different genres 
+### 8kHz to 16kHz Average loss for Test Set having different genres 
 **T_4k_8k_I_8k_16k means Trained for input samples at 4kHz and target of 8kHz and Inferred for 8kHz and 16kHz\
 **T_8k_16k_I_8k_16k means Trained for input samples at 8kHz and target of 16kHz and Inferred for 8kHz and 16kHz  
 
@@ -153,7 +153,7 @@ Spectral Loss = np.mean(np.log10(np.abs(STFT_Y_trg) + 1e-7) - np.log10(np.abs(ST
 
 
 
-####  16kHz to 32kHz Average loss for Test Set
+###  16kHz to 32kHz Average loss for Test Set
 **T_4k_8k_I_16k_32k means Trained for input samples at 4kHz and target of 8kHz and Inferred for 16kHz and 32kHz\
 **T_16k_32k_I_16k_32k means Trained for input samples at 16kHz and target of 32kHz and Inferred for 16kHz and 32kHz
 |                                        	| MSE         	| WMSE     	| LSD      	|
