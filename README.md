@@ -132,10 +132,12 @@ Spectral Loss = np.mean(np.log10(np.abs(STFT_Y_trg) + 1e-7) - np.log10(np.abs(ST
 | Polyphase_T_8k_16k_I_8k_16k_WMSE     	| 0.035046323 	| 3.98E-07 	| 0.272616319 	|
 | Polyphase_T_4k_8k_I_8k_16k_WMSE      	| 0.005492212 	| 3.90E-07 	| 0.277659197 	|
 
-**T_4k_8k_I_8k_16k means Trained for input samples at 4kHz and target of 8kHz and Inferred for 8kHz and 16kHz\
-**T_8k_16k_I_8k_16k means Trained for input samples at 8kHz and target of 16kHz and Inferred for 8kHz and 16kHz  
+
  
 #### 8kHz to 16kHz Average loss for Test Set having different genres 
+**T_4k_8k_I_8k_16k means Trained for input samples at 4kHz and target of 8kHz and Inferred for 8kHz and 16kHz\
+**T_8k_16k_I_8k_16k means Trained for input samples at 8kHz and target of 16kHz and Inferred for 8kHz and 16kHz  
+
 |                  Models                	|     SpectralLoss Target_Input    	|     SpectralLoss Target_Predicted    	|
 |:--------------------------------------:	|:--------------------------------:	|:------------------------------------:	|
 |     T_4k_8k_I_8k_16k_LSD_NON_POLY      	|             2.73441422           	|              0.270420129             	|
@@ -150,9 +152,10 @@ Spectral Loss = np.mean(np.log10(np.abs(STFT_Y_trg) + 1e-7) - np.log10(np.abs(ST
 
 
 
+
+####  16kHz to 32kHz Average loss for Test Set
 **T_4k_8k_I_16k_32k means Trained for input samples at 4kHz and target of 8kHz and Inferred for 16kHz and 32kHz\
 **T_16k_32k_I_16k_32k means Trained for input samples at 16kHz and target of 32kHz and Inferred for 16kHz and 32kHz
-####  16kHz to 32kHz Average loss for Test Set
 |                                        	| MSE         	| WMSE     	| LSD      	|
 |----------------------------------------	|-------------	|----------	|----------	|
 | Non-Polyphase_T_16k_32k_I_16k_32k_LSD  	| 0.145649366 	| 3.88E-07 	| 0.209755 	|
