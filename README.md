@@ -85,7 +85,7 @@
 ## Experiments 
 Experiments with different sampling rates were conducted, to evaluate our idea
 
-##### Experiments for Base model, SampleRNN based model, Non-Polyphase based model and Polyphase based RNN-Autoencoder for input sampled at 4kHz and target sampled at 8kHz
+### Experiments for Base model, SampleRNN based model, Non-Polyphase based model and Polyphase based RNN-Autoencoder for input sampled at 4kHz and target sampled at 8kHz
 
 
 #### 4kHz to 8kHz Average loss for Test Set
