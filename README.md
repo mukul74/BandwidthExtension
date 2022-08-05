@@ -83,7 +83,7 @@
 
 
 ## Experiments 
-> **### Experiments with different sampling rates were conducted, to evaluate our idea for a small dataset**
+> ### **Experiments with different sampling rates were conducted, to evaluate our idea for a small dataset**
 
 > #### Experiments for Base model, SampleRNN based model, Non-Polyphase based model and Polyphase based RNN-Autoencoder for input sampled at 4kHz and target sampled at 8kHz
 
