@@ -83,23 +83,21 @@
 
 
 ## Experiments 
-Experiments with different sampling rates were conducted, to evaluate our idea
+> Experiments with different sampling rates were conducted, to evaluate our idea
 
-### Experiments for Base model, SampleRNN based model, Non-Polyphase based model and Polyphase based RNN-Autoencoder for input sampled at 4kHz and target sampled at 8kHz
-
-
-#### 4kHz to 8kHz Average loss for Test Set
-
-|                    	| MSE                 	| WMSE                 	| LSD               	|
-|--------------------	|---------------------	|----------------------	|-------------------	|
-| Non_Polyphase_WMSE 	| 0.0932317343526161  	| 8.21E-07 	| 0.302534976401008 	|
-| Non_Polyphase_LSD  	| 0.0742006318564213  	| 8.03E-07 	| 0.28536770116681  	|
-| Polyphase_WMSE     	| 0.0149761172970801  	| 7.7E-07 	| 0.322922977189031 	|
-| Polyphase_LSD      	| 0.045025677702562   	| 1.08E-06 	| 0.336819651035162 	|
-| SampleRNN          	| 0.09213455797162523 	| 7.36E-07 	| 0.383906527494008 	|
-| BaseModel          	| 0.046915435689      	| 5.16E-07 	| 0.399791688125897 	|
+> ### Experiments for Base model, SampleRNN based model, Non-Polyphase based model and Polyphase based RNN-Autoencoder for input sampled at 4kHz and target sampled at 8kHz
 
 
+> #### 4kHz to 8kHz Average loss for Test Set
+
+>|                    	| MSE                 	| WMSE                 	| LSD               	|
+>|--------------------	|---------------------	|----------------------	|-------------------	|
+>| Non_Polyphase_WMSE 	| 0.0932317343526161  	| 8.21E-07 	| 0.302534976401008 	|
+>| Non_Polyphase_LSD  	| 0.0742006318564213  	| 8.03E-07 	| 0.28536770116681  	|
+>| Polyphase_WMSE     	| 0.0149761172970801  	| 7.7E-07 	| 0.322922977189031 	|
+>| Polyphase_LSD      	| 0.045025677702562   	| 1.08E-06 	| 0.336819651035162 	|
+>| SampleRNN          	| 0.09213455797162523 	| 7.36E-07 	| 0.383906527494008 	|
+>| BaseModel          	| 0.046915435689      	| 5.16E-07 	| 0.399791688125897 	|
 
 #### 4kHz to 8kHz Average loss for Test Set having different genres 
 
