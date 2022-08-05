@@ -99,87 +99,86 @@
 >| SampleRNN          	| 0.09213455797162523 	| 7.36E-07 	| 0.383906527494008 	|
 >| BaseModel          	| 0.046915435689      	| 5.16E-07 	| 0.399791688125897 	|
 
-#### 4kHz to 8kHz Average loss for Test Set having different genres 
+> #### 4kHz to 8kHz Average loss for Test Set having different genres 
 
-|            Models          	|     SpectralLoss Target_Input    	|     SpectralLoss Target_Predicted    	|               SpectralLoss   Target(IFR)_Predicted(IFR)         	|
-|:--------------------------:	|:--------------------------------:	|:------------------------------------:	|:---------------------------------------------------------------:	|
-|     4k_8k_Base             	|            2.838955498           	|              0.769846642             	|                            0.025563918                          	|
-|     4k_8k_WMSE_NON_POLY    	|            2.838955498           	|                 0.5532               	|                            0.013841194                          	|
-|     4k_8k_LSD_NON_POLY     	|            2.838955498           	|              0.336730437             	|                            0.018115259                          	|
-|     4k_8k_LSD_POLY         	|            2.838955498           	|              0.247910774             	|                            0.06388542                           	|
-|     4k_8k_MSE_NON_POLY     	|            2.838955498           	|              0.804133153             	|                           -0.075100321                          	|
-|     4k_8k_MSE_POLY         	|            2.838955498           	|              0.659037203             	|                           -0.078789327                          	|
-|     4k_8k_SampleRNN        	|            2.838955498           	|              -0.043308296            	|                           -0.056810266                          	|
-|     4k_8k_WMSE_POLY        	|            2.838955498           	|              0.326250678             	|                            0.028139032                          	|
+>|            Models          	|     SpectralLoss Target_Input    	|     SpectralLoss Target_Predicted    	|               SpectralLoss   Target(IFR)_Predicted(IFR)         	|
+>|:--------------------------:	|:--------------------------------:	|:------------------------------------:	|:---------------------------------------------------------------:	|
+>|     4k_8k_Base             	|            2.838955498           	|              0.769846642             	|                            0.025563918                          	|
+>|     4k_8k_WMSE_NON_POLY    	|            2.838955498           	|                 0.5532               	|                            0.013841194                          	|
+>|     4k_8k_LSD_NON_POLY     	|            2.838955498           	|              0.336730437             	|                            0.018115259                          	|
+>|     4k_8k_LSD_POLY         	|            2.838955498           	|              0.247910774             	|                            0.06388542                           	|
+>|     4k_8k_MSE_NON_POLY     	|            2.838955498           	|              0.804133153             	|                           -0.075100321                          	|
+>|     4k_8k_MSE_POLY         	|            2.838955498           	|              0.659037203             	|                           -0.078789327                          	|
+>|     4k_8k_SampleRNN        	|            2.838955498           	|              -0.043308296            	|                           -0.056810266                          	|
+>|     4k_8k_WMSE_POLY        	|            2.838955498           	|              0.326250678             	|                            0.028139032                          	|
 
-*Spectral Loss = mean(log10(abs(STFT_Y_trg) + 1e-7) - log10(abs(STFT_X_pred) + 1e-7))  
-*IFR(Input Frequency Range)
+> *Spectral Loss = mean(log10(abs(STFT_Y_trg) + 1e-7) - log10(abs(STFT_X_pred) + 1e-7))  
+> *IFR(Input Frequency Range)
 
-| **Models**                      | **Blues **   | **Classic**  | **Country** | **Disco**   | **Hiphop**   | **Jazz**     | **Metal**   | **Pop**      | **Reggae**   |
-|:-------------------------------:|:------------:|:------------:|:-----------:|:-----------:|:------------:|:------------:|:-----------:|:------------:|:------------:|
-| **4k_8k_Base_10G**              | 0.70990538   | 0.634344068  | 0.818412703 | 0.838624215 | 0.816541922  | 0.602374846  | 0.96302852  | 0.79622038   | 0.761047393  |
-| **4k_8k_LSD_NonPolyphase_10G**  | 0.254802302  | 0.136714996  | 0.41278882  | 0.434504396 | 0.425998965  | 0.0978881    | 0.49370892  | 0.32702904   | 0.278526874  |
-| **4k_8k_LSD_Polyphase_10G**     | 0.149167863  | -0.004728154 | 0.304227284 | 0.318401845 | 0.292899534  | -0.042438272 | 0.413068879 | 0.202182852  | 0.169996922  |
-| **4k_8k_MSE_NonPolyphase_10G**  | 0.827463776  | 0.777132469  | 0.986265135 | 0.978288686 | 0.949135756  | 0.757457525  | 1.042413431 | 0.900481862  | 0.858593887  |
-| **4k_8k_MSE_Polyphase_10G**     | 0.471542123  | 0.35550147   | 0.61363126  | 0.618733776 | 0.611972332  | 0.329373513  | 0.715016741 | 0.5430022    | 0.495021099  |
-| **4k_8k_SampleRNN_10G**         | -0.169947441 | -0.476677227 | 0.03137644  | 0.049329544 | -0.012539472 | -0.407023662 | 0.130719438 | -0.093167413 | -0.149105346 |
-| **4k_8k_WMSE_NonPolyphase_10G** | 0.471709016  | 0.404018852  | 0.633616346 | 0.654599142 | 0.625983274  | 0.333949043  | 0.735064375 | 0.529633048  | 0.505101207  |
-| **4k_8k_WMSE_Polyphase_10G**    | 0.224478875  | 0.098066133  | 0.390202519 | 0.409518272 | 0.384841175  | 0.062868034  | 0.504171214 | 0.291417016  | 0.261211139  |
-
-
+>| **Models**                      | **Blues **   | **Classic**  | **Country** | **Disco**   | **Hiphop**   | **Jazz**     | **Metal**   | **Pop**      | **Reggae**   |
+>|:-------------------------------:|:------------:|:------------:|:-----------:|:-----------:|:------------:|:------------:|:-----------:|:------------:|:------------:|
+>| **4k_8k_Base_10G**              | 0.70990538   | 0.634344068  | 0.818412703 | 0.838624215 | 0.816541922  | 0.602374846  | 0.96302852  | 0.79622038   | 0.761047393  |
+>| **4k_8k_LSD_NonPolyphase_10G**  | 0.254802302  | 0.136714996  | 0.41278882  | 0.434504396 | 0.425998965  | 0.0978881    | 0.49370892  | 0.32702904   | 0.278526874  |
+>| **4k_8k_LSD_Polyphase_10G**     | 0.149167863  | -0.004728154 | 0.304227284 | 0.318401845 | 0.292899534  | -0.042438272 | 0.413068879 | 0.202182852  | 0.169996922  |
+>| **4k_8k_MSE_NonPolyphase_10G**  | 0.827463776  | 0.777132469  | 0.986265135 | 0.978288686 | 0.949135756  | 0.757457525  | 1.042413431 | 0.900481862  | 0.858593887  |
+>| **4k_8k_MSE_Polyphase_10G**     | 0.471542123  | 0.35550147   | 0.61363126  | 0.618733776 | 0.611972332  | 0.329373513  | 0.715016741 | 0.5430022    | 0.495021099  |
+>| **4k_8k_SampleRNN_10G**         | -0.169947441 | -0.476677227 | 0.03137644  | 0.049329544 | -0.012539472 | -0.407023662 | 0.130719438 | -0.093167413 | -0.149105346 |
+>| **4k_8k_WMSE_NonPolyphase_10G** | 0.471709016  | 0.404018852  | 0.633616346 | 0.654599142 | 0.625983274  | 0.333949043  | 0.735064375 | 0.529633048  | 0.505101207  |
+>| **4k_8k_WMSE_Polyphase_10G**    | 0.224478875  | 0.098066133  | 0.390202519 | 0.409518272 | 0.384841175  | 0.062868034  | 0.504171214 | 0.291417016  | 0.261211139  |
 
 
-## Experiments for Non-Polyphase based RNN-Autoencoder, Polyphase based RNN-Autoencoder and Base model for higher sampling rates usch as 8kHz to 16kHz and 16kHz to 32kHz.
 
-### 8kHz to 16kHz Average loss for Test Set
 
-|                                      	| MSE         	| WMSE     	| LSD         	|
-|--------------------------------------	|-------------	|----------	|-------------	|
-| Non-Polyphase_T_8k_16k_I_8k_16k_LSD  	| 0.0563799   	| 5.73E-07 	| 0.276729196 	|
-| Non-Polyphase_T_4k_8k_I_8k_16k_LSD   	| 0.051999187 	| 7.35E-07 	| 0.271316883 	|
-| Non-Polyphase_T_8k_16k_I_8k_16k_WMSE 	| 0.046481295 	| 4.03E-07 	| 0.261975849 	|
-| Non-Polyphase_T_4k_8k_I_8k_16k_WMSE  	| 0.079269871 	| 5.93E-07 	| 0.259256431 	|
-| Polyphase_T_8k_16k_I_8k_16k_LSD      	| 0.043998776 	| 7.21E-07 	| 0.277621126 	|
-| Polyphase_T_4k_8k_I_8k_16k_LSD       	| 0.026988551 	| 6.02E-07 	| 0.290659596 	|
-| Polyphase_T_8k_16k_I_8k_16k_WMSE     	| 0.035046323 	| 3.98E-07 	| 0.272616319 	|
-| Polyphase_T_4k_8k_I_8k_16k_WMSE      	| 0.005492212 	| 3.90E-07 	| 0.277659197 	|
+> ## Experiments for Non-Polyphase based RNN-Autoencoder, Polyphase based RNN-Autoencoder and Base model for higher sampling rates usch as 8kHz to 16kHz and 16kHz to 32kHz.
+
+> ### 8kHz to 16kHz Average loss for Test Set
+
+>|                                      	| MSE         	| WMSE     	| LSD         	|
+>|--------------------------------------	|-------------	|----------	|-------------	|
+>| Non-Polyphase_T_8k_16k_I_8k_16k_LSD  	| 0.0563799   	| 5.73E-07 	| 0.276729196 	|
+>| Non-Polyphase_T_4k_8k_I_8k_16k_LSD   	| 0.051999187 	| 7.35E-07 	| 0.271316883 	|
+>| Non-Polyphase_T_8k_16k_I_8k_16k_WMSE 	| 0.046481295 	| 4.03E-07 	| 0.261975849 	|
+>| Non-Polyphase_T_4k_8k_I_8k_16k_WMSE  	| 0.079269871 	| 5.93E-07 	| 0.259256431 	|
+>| Polyphase_T_8k_16k_I_8k_16k_LSD      	| 0.043998776 	| 7.21E-07 	| 0.277621126 	|
+>| Polyphase_T_4k_8k_I_8k_16k_LSD       	| 0.026988551 	| 6.02E-07 	| 0.290659596 	|
+>| Polyphase_T_8k_16k_I_8k_16k_WMSE     	| 0.035046323 	| 3.98E-07 	| 0.272616319 	|
+>| Polyphase_T_4k_8k_I_8k_16k_WMSE      	| 0.005492212 	| 3.90E-07 	| 0.277659197 	|
 
 
  
-### 8kHz to 16kHz Average loss for Test Set having different genres 
-**T_4k_8k_I_8k_16k means Trained for input samples at 4kHz and target of 8kHz and Inferred for 8kHz and 16kHz\
-**T_8k_16k_I_8k_16k means Trained for input samples at 8kHz and target of 16kHz and Inferred for 8kHz and 16kHz  
+> ### 8kHz to 16kHz Average loss for Test Set having different genres 
+> *T_4k_8k_I_8k_16k means Trained for input samples at 4kHz and target of 8kHz and Inferred for 8kHz and 16kHz\
+> *T_8k_16k_I_8k_16k means Trained for input samples at 8kHz and target of 16kHz and Inferred for 8kHz and 16kHz  
 
-|                  Models               |     SpectralLoss Target_Input  |     SpectralLoss Target_Predicted  |
-|-------------------------------------- |--------------------------------|------------------------------------|
-|T_4k_8k_I_8k_16k_LSD_NON_POLY      	|             2.73441422         |              0.270420129           |
-|T_4k_8k_I_8k_16k_LSD_POLY          	|             2.73441422         |              0.187405745           |
-|T_4k_8k_I_8k_16k_WMSE_NON_POLY     	|             2.73441422         |              0.465945017           |
-|T_4k_8k_I_8k_16k_WMSE_POLY         	|             2.73441422         |               0.25570653           |
-|T_8k_16k_I_8k_16k_Base             	|             2.73441422         |              0.603543603           |
-|T_8k_16k_I_8k_16k_LSD_NON_POLY     	|             2.73441422         |              0.225586262           |
-|T_8k_16k_I_8k_16k_LSD_POLY         	|             2.73441422         |              0.154223925           |
-|T_8k_16k_I_8k_16k_WMSE_NON_POLY    	|             2.73441422         |              0.405578698           |
-|T_8k_16k_I_8k_16k_WMSE_POLY        	|             2.73441422         |               0.17192617           |
-
-
+>|                  Models               |     SpectralLoss Target_Input  |     SpectralLoss Target_Predicted  |
+>|-------------------------------------- |--------------------------------|------------------------------------|
+>|T_4k_8k_I_8k_16k_LSD_NON_POLY      	|             2.73441422         |              0.270420129           |
+>|T_4k_8k_I_8k_16k_LSD_POLY          	|             2.73441422         |              0.187405745           |
+>|T_4k_8k_I_8k_16k_WMSE_NON_POLY     	|             2.73441422         |              0.465945017           |
+>|T_4k_8k_I_8k_16k_WMSE_POLY         	|             2.73441422         |               0.25570653           |
+>|T_8k_16k_I_8k_16k_Base             	|             2.73441422         |              0.603543603           |
+>|T_8k_16k_I_8k_16k_LSD_NON_POLY     	|             2.73441422         |              0.225586262           |
+>|T_8k_16k_I_8k_16k_LSD_POLY         	|             2.73441422         |              0.154223925           |
+>|T_8k_16k_I_8k_16k_WMSE_NON_POLY    	|             2.73441422         |              0.405578698           |
+>|T_8k_16k_I_8k_16k_WMSE_POLY        	|             2.73441422         |               0.17192617           |
 
 
-###  16kHz to 32kHz Average loss for Test Set
-**T_4k_8k_I_16k_32k means Trained for input samples at 4kHz and target of 8kHz and Inferred for 16kHz and 32kHz\
-**T_16k_32k_I_16k_32k means Trained for input samples at 16kHz and target of 32kHz and Inferred for 16kHz and 32kHz
-|                                        	| MSE         	| WMSE     	| LSD      	|
-|----------------------------------------	|-------------	|----------	|----------	|
-| Non-Polyphase_T_16k_32k_I_16k_32k_LSD  	| 0.145649366 	| 3.88E-07 	| 0.209755 	|
-| Non-Polyphase_T_4k_8k_I_16k_32k_LSD    	| 0.020665331 	| 5.24E-07 	| 0.215294 	|
-| Non-Polyphase_T_16k_32k_I_16k_32k_WMSE 	| 0.002238482 	| 2.95E-07 	| 0.204589 	|
-| Non-Polyphase_T_4k_8k_I_16k_32k_WMSE   	| 0.10929662  	| 5.00E-07 	| 0.236057 	|
-| Polyphase_T_16k_32k_I_16k_32k_LSD      	| 0.134671843 	| 4.64E-07 	| 0.234291 	|
-| Polyphase_T_4k_8k_I_16k_32k_LSD        	| 0.129595473 	| 5.10E-07 	| 0.25999  	|
-| Polyphase_T_16k_32k_I_16k_32k_WMSE     	| 0.099928898 	| 3.47E-07 	| 0.2472   	|
-| Polyphase_T_4kk_8k_I_16k_32k_WMSE      	| 0.001909916 	| 3.42E-07 	| 0.245304 	|
 
-#### 
+
+> ###  16kHz to 32kHz Average loss for Test Set
+> *T_4k_8k_I_16k_32k means Trained for input samples at 4kHz and target of 8kHz and Inferred for 16kHz and 32kHz\
+> *T_16k_32k_I_16k_32k means Trained for input samples at 16kHz and target of 32kHz and Inferred for 16kHz and 32kHz
+>|                                        	| MSE         	| WMSE     	| LSD      	|
+>|----------------------------------------	|-------------	|----------	|----------	|
+>| Non-Polyphase_T_16k_32k_I_16k_32k_LSD  	| 0.145649366 	| 3.88E-07 	| 0.209755 	|
+>| Non-Polyphase_T_4k_8k_I_16k_32k_LSD    	| 0.020665331 	| 5.24E-07 	| 0.215294 	|
+>| Non-Polyphase_T_16k_32k_I_16k_32k_WMSE 	| 0.002238482 	| 2.95E-07 	| 0.204589 	|
+>| Non-Polyphase_T_4k_8k_I_16k_32k_WMSE   	| 0.10929662  	| 5.00E-07 	| 0.236057 	|
+>| Polyphase_T_16k_32k_I_16k_32k_LSD      	| 0.134671843 	| 4.64E-07 	| 0.234291 	|
+>| Polyphase_T_4k_8k_I_16k_32k_LSD        	| 0.129595473 	| 5.10E-07 	| 0.25999  	|
+>| Polyphase_T_16k_32k_I_16k_32k_WMSE     	| 0.099928898 	| 3.47E-07 	| 0.2472   	|
+>| Polyphase_T_4kk_8k_I_16k_32k_WMSE      	| 0.001909916 	| 3.42E-07 	| 0.245304 	|
+
 
 ## Subjective Results
 > For subjective evaluation, a MUSHRA test was conducted among 7 people, with average hearing capabilities. Mushra stands for Multi-Stimulus test with Hidden Reference and Anchor(MUSHRA). MUSHRA is used for comparing the audio quality of different audio samples. MUSHRA has an advantage over Mean Opinion Score(MOS), as it can deliver better results with fewer participants. A participant is asked to rate the reconstructed audio files on a scale of 0-100 while switching in-between the reference and reconstructed. We use a web application developed by International Audio Labs Erlangen for this test. Where we have a reference signal or target signal compared to the reconstructed samples, reconstructed samples perceptually closer to the reference signal must have a high score. Here we are comparing target/reference and generated samples at 16kHz via Non-Polyphase based model, Polyphase based model, and Base model. 
