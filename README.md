@@ -26,8 +26,8 @@
 ![Simple Block Diagram](imgs/base.PNG "Simple Block Diagram")
 
 ## Models Examined 
-0. Base Model  [Base Model](https://kuleshov.github.io/audio-super-res/)
-1. Modified Unconditional SampleRNN [Base Model](https://arxiv.org/abs/1612.07837)
+0. Base Model  [Paper](https://kuleshov.github.io/audio-super-res/)
+1. Modified Unconditional SampleRNN [Paper](https://arxiv.org/abs/1612.07837)
 2. RNN-Autoencoder
     1. Non-Polyphase based RNN-Autoencoder
     2. Polyphase based RNN-Autoencoder
